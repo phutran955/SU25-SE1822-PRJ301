@@ -1,0 +1,120 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 16, 2025, 10:53:58 AM
+    Author     : trang
+*/
+
+/* Form container styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Input field styling */
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Specific sizing for certain elements */
+input[type="text"][size="5"] {
+    width: auto;
+    display: inline-block;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+/* Checkbox and radio button styling */
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Button styling */
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+    background-color: #45a049;
+}
+
+input[type="reset"] {
+    background-color: #f44336;
+}
+
+input[type="reset"]:hover {
+    background-color: #d32f2f;
+}
+
+input[type="button"] {
+    background-color: #2196F3;
+}
+
+input[type="button"]:hover {
+    background-color: #0b7dda;
+}
+
+/* Label and field alignment */
+
+br {
+    margin-bottom: 10px;
+}
+
+/* Multi-select styling */
+select[multiple] {
+    height: auto;
+}
+
+/* Status radio buttons alignment */
+input[name="rdoStatus"] {
+    margin-left: 10px;
+}
+
+/* Combo box and multiple select styling */
+select {
+    padding: 8px;
+    margin-bottom: 15px;
+}
